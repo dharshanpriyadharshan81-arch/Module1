@@ -1,0 +1,28 @@
+# Conditional Statements in the minimum value among three integer numbers using the conditional expression (ternary operator).
+
+## 🎯 Aim
+To write a program to find the minimum value among three integer numbers using the conditional expression (ternary operator).
+
+## 🧠 Algorithm
+Step 1: Start
+Step 2: Read three integer numbers a, b, and c
+Step 3: Find the minimum value using ternary operator:
+
+min = (a < b) ? ((a < c) ? a : c) : ((b < c) ? b : c)
+
+Step 4: Display the minimum value
+Step 5: Stop
+
+## 🧾 Program
+a=int(input())
+b=int(input())
+c=int(input())
+d=min(a,b,c)
+print(f"The minimum of {a}, {b}, {c} is {d}")
+
+## Output
+<img width="1132" height="376" alt="Screenshot 2026-06-03 100929" src="https://github.com/user-attachments/assets/7b5d9cfb-4704-4159-9351-f0850bf42e67" />
+## Result
+**Result:**
+Thus, the program to find the minimum among three integer numbers using the conditional expression (ternary operator) was executed successfully and the smallest number was displayed as the output.
+
